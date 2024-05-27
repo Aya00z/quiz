@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Reservation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="vk">
+        <h1>Bus Reservation</h1>
+        <img src="imgg.png" alt="Bus" id="im">
+    </div>
+    <div id="place">
+        <div class="mix">
+            <div class="line1">
+                <button class="btn1" onclick="show()"></button>
+                <button class="btn11" onclick="showw()"></button>
+            </div>
+            <div class="line1">
+                <button class="btn11" onclick="showw()"></button>
+                <button class="btn1" onclick="show()"></button>
+            </div>
+        </div>
+        <div class="mix">
+            <div class="line1">
+                <button class="btn11" onclick="showw()"></button>
+                <button class="btn11" onclick="showw()"></button>
+            </div>
+            <div class="line1">
+                <button class="btn1" onclick="show()"></button>
+                <button class="btn1" onclick="show()"></button>
+            </div>
+        </div>
+        <div class="mix">
+            <div class="line1">
+                <button class="btn11" onclick="showw()"></button>
+                <button class="btn1" onclick="show()"></button>
+            </div>
+            <div class="line1">
+                <button class="btn11" onclick="showw()"></button>
+                <button class="btn1" onclick="show()"></button>
+            </div>
+        </div>
+        <div class="mix">
+            <div class="line1">
+                <button class="btn11" onclick="showw()"></button>
+                <button class="btn11" onclick="showw()"></button>
+            </div>
+            <div class="line1">
+                <button class="btn1" onclick="show()"></button>
+                <button class="btn11" onclick="showw()"></button>
+            </div>
+        </div>  
+    </div>
+    <div id="data">
+        <div class="username">
+            <label for="user">Username:</label>
+            <input type="text" id="user">
+        </div>
+        <div class="National Id">
+            <label for="id">National Id:</label>
+            <input type="text" id="id">
+        </div>
+        <div class="Age">
+            <label for="age">Age:</label>
+            <input type="text" id="age">
+        </div>
+        <div class="pn">
+            <label for="num">Phone number:</label>
+            <input type="text" id="num">
+        </div>
+        <div class="sub">
+            <button type="submit" onclick="checked()">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="java.js"></script>
+</html>

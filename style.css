@@ -1,0 +1,59 @@
+.mix
+{
+    display: flex;
+}
+.line1
+{
+    padding-right: 10px;
+}
+.line1 .btn1
+{
+    border: transparent;
+    background-color: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+}
+.line1 button:hover
+{
+    width: 32px;
+    height: 32px;
+}
+#data
+{
+    display: none;
+}
+.btn11
+{
+    border: transparent;
+    background-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+}
+#place
+{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    right: 50%;
+}
+#im
+{
+    width: 130px;
+    height: 150px;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    right: 50%;
+}
+h1
+{
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    right: 50%;
+
+}
